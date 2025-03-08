@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: yourusername/liberale-bewegung
+  branch: main
+  auth_scope: repo
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "pages"
+    label: "Seiten"
+    files:
+      - label: "Startseite"
+        name: "index"
+        file: "index.html"
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
