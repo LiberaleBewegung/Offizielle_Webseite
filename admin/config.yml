@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: yourusername/liberale-bewegung
+  repo: liberalebewegung/liberale-bewegung
   branch: main
   auth_scope: repo
 
