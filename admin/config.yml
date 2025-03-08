@@ -1,8 +1,7 @@
 backend:
   name: github
-  repo: liberalebewegung/liberale-bewegung
+  repo: liberalebewegung/liberale-bewegung  # Change to your GitHub repo
   branch: main
-  auth_scope: repo
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
