@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: liberalebewegung/liberale-bewegung  # Change to your GitHub repo
+  name: git-gateway
   branch: main
 
 media_folder: "images/uploads"
