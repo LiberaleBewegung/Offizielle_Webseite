@@ -2,29 +2,9 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
-
-collections:
-  - name: "pages"
-    label: "Seiten"
-    files:
-      - label: "Startseite"
-        name: "index"
-        file: "index.html"
-        fields:
-          - { label: "Titel", name: "title", widget: "string" }
-          - { label: "Inhalt", name: "body", widget: "markdown" }
-
-local_backend: false
-
 site_url: "https://www.liberale-bewegung.de"
 display_url: "https://www.liberale-bewegung.de"
-logo_url: "https://www.liberale-bewegung.de/logo.png"  # Optional, change if needed
-
-backend:
-  name: git-gateway
-  branch: main
+logo_url: "https://www.liberale-bewegung.de/logo.png"  # Optional
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
